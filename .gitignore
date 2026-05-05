@@ -1,7 +1,10 @@
 ﻿venv/
 __pycache__/
 *.pyc
-results/
 seg_train/
 seg_test/
 seg_pred/
+
+# allow images
+results/*
+!results/*.png
